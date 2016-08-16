@@ -1,0 +1,22 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <%= partial "layouts/head.erb"%>
+</head>
+
+<body>
+
+  <%= partial "layouts/nav.erb"%>
+  
+  <div class="row" style="padding-top:1em">   
+    <h2><%=current_article.title unless current_article.nil? %></h2>
+    <hr>
+    <%= yield %>
+  </div>
+  
+  <%= partial "layouts/footer.erb"%>
+  
+</body>
+
+</html>

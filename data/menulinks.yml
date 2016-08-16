@@ -1,0 +1,36 @@
+-
+  name: "Home"
+  id: 'nav.home.title'
+  icon: "fa fa-home"
+  url: "//rigsofrods.org"
+-
+  name: "Blog"
+  id: 'nav.blog.title'
+  icon: "fa fa-pencil"
+  url: "//blog.rigsofrods.org"
+-
+  name: "Download"
+  id: 'nav.download.title'
+  icon: "fa fa-download"
+  url: "//download.rigsofrods.org"
+-
+  name: "Repository"
+  id: 'nav.repository.title'
+  icon: "fa fa-plus"
+  url: "//forum.rigsofrods.org/thread-107.html"
+-
+  name: "Forum"
+  id: 'nav.forum.title'
+  icon: "fa fa-comments"
+  url: "//forum.rigsofrods.org"
+-
+  name: "Docs"
+  id: 'nav.docs.title'
+  icon: "fa fa-lightbulb-o"
+  url: "//docs.rigsofrods.org"
+-
+  name: "Source Code"
+  id: 'nav.docs.title'
+  icon: "fa fa fa-terminal"
+  url: "https://github.com/RigsOfRods/rigs-of-rods"
+          
