@@ -1,0 +1,46 @@
+<meta charset="utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Use title if it's in the page YAML frontmatter -->
+<title>
+<%= current_page.data.title || "Rigs of Rods Soft Body Physics Simulator" %>
+</title>
+<meta name="description" content="Rigs of Rods is an open source vehicle simulator licensed under the GNU General Public License version 3.">
+<meta name="robots" content="index, follow">
+<script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.min.js"></script>
+<script src="//cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CUbuntu+Mono:400%7CUbuntu:300,300italic,300bold,400,400italic,400bold,600,600italic,600bold" rel="stylesheet">
+<%= stylesheet_link_tag :ror %>
+<%= javascript_include_tag :all %>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "SoftwareApplication",
+  "name" : "Rigs of Rods",
+  "image" : "http://rigsofrods.org/images/logos/rorlogo.png",
+  "url" : "http://rigsofrods.org/",
+  "author" : {
+    "@type" : "Person",
+    "name" : "Pierre-Michel Ricordel"
+  },
+  "author" : {
+    "@type" : "Person",
+    "name" : "Thomas Fischer"
+  },
+  "author" : {
+    "@type" : "Person",
+    "name" : "Petr Ohlidal"
+  },
+  "publisher" : {
+    "@type" : "Organization",
+    "name" : "Rigs of Rods developers"
+  },
+  "applicationCategory" : "Game, Simulator",
+  "downloadUrl" : "http://download.rigsofrods.org/",
+  "operatingSystem" : "Windows, Linux and OS X",
+  "requirements" : "CPU: Intel Core 2 Duo or AMD Athlon 64 X2 RAM: 2048 MB Video Card: Geforce 8600GT or AMD Radeon 3650 or Intel HD Graphics 3000",
+  "screenshot" : "http://rigsofrods.org/images/screenshots/ror-screenshot5.jpg",
+  "softwareVersion" : "0.4.5.1"
+}
+</script>

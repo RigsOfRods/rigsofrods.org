@@ -1,0 +1,46 @@
+<div data-sticky-container>
+
+  <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+    <button class="menu-icon" type="button" data-toggle></button>
+    <div class="title-bar-title">Menu</div>
+
+    <div class="row" id="main-menu">
+
+      <% data.menulinks.each do |entry| %>
+        <div class="large-3 columns">
+          <a class="main-menu-mobile-text" href="<%= entry.url %>">                               
+          <span class="<%= entry.icon %>">                               
+          </span>                                  
+          <span class="nav-entry-text"><%= entry.name %>                                
+          </span></a>
+        </div>
+        <% end %>
+
+    </div>
+
+  </div>
+
+
+  <div class="top-bar show-for-medium" data-sticky data-options="marginTop:0;" style="height: 3.5em; width: 100%;">
+    <div class="top-bar-left show-for-large">
+      <ul class="menu">
+        <img src="/images/logos/rorlogo.png" width="175">
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu">
+
+        <% data.menulinks.each do |entry| %>
+          <li>
+            <a class="main-menu-mobile-text" href="<%= entry.url %>">                               
+              <span class="show-for-large <%= entry.icon %>">                               
+              </span>                                  
+              <span class="nav-entry-text"><%= entry.name %>                                
+              </span></a>
+          </li>
+          <% end %>
+
+      </ul>
+    </div>
+  </div>
+</div>

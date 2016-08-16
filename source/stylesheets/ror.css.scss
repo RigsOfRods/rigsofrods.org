@@ -1,0 +1,205 @@
+@charset 'utf-8';
+
+$global-color: #ee7700;
+
+@import 'settings';
+@import 'foundation';
+@import 'font-awesome/font-awesome';
+@import 'motion-ui';
+
+
+
+@include foundation-global-styles;
+@include foundation-grid;
+// @include foundation-flex-grid;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+// @include foundation-range-input;
+@include foundation-accordion;
+@include foundation-accordion-menu;
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-button-group;
+@include foundation-callout;
+@include foundation-close-button;
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-drilldown-menu;
+@include foundation-dropdown;
+@include foundation-dropdown-menu;
+@include foundation-flex-video;
+@include foundation-label;
+@include foundation-media-object;
+@include foundation-off-canvas;
+@include foundation-orbit;
+@include foundation-pagination;
+@include foundation-progress-bar;
+// @include foundation-progress-element;
+// @include foundation-meter-element;
+@include foundation-slider;
+@include foundation-sticky;
+@include foundation-reveal;
+@include foundation-switch;
+@include foundation-table;
+@include foundation-tabs;
+@include foundation-thumbnail;
+@include foundation-title-bar;
+@include foundation-tooltip;
+@include foundation-top-bar;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+// @include foundation-flex-classes;
+
+@include motion-ui-transitions;
+@include motion-ui-animations;
+
+//header
+.top-bar, .main-menu-mobile-text{
+    color: white;
+}
+.main-menu-mobile-text:hover, .main-menu-mobile-text:focus{
+	color: white;
+}
+
+
+// Start promo
+.start {
+    background: url(/images/screenshots/ror-screenshot1.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 26vh 0 80px;
+    margin: 0 0 100px;
+}
+
+.start::after
+{
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	width: 40px;
+	height: 40px;
+	margin-left: -20px;
+	border-left: 2px solid rgba(255,255,255,0.8);
+	border-bottom: 2px solid rgba(255,255,255,0.8);
+	transform: rotate(-45deg);
+}
+
+.startbanner {
+	h1, h2, h3, h4, p {
+		color: #fff;
+		padding-left: rem-calc(15px);
+	}
+}
+
+.download-wrapper {
+	text-align: right;
+	padding: 60px 100px 0 0;
+}
+
+.download-wrapper .download {
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.5);
+	border-radius: 3px;
+	font-size: 24px;
+	padding: 12px 25px 12px 23px;
+	transition: all .15s;
+}
+
+.download-wrapper .download:hover
+{
+	background: #fff;
+	color: #f08a24;
+}
+
+.buttonlist {
+	a {
+		color: #fff;
+	}
+	margin: 2em 0 4em;
+}
+
+.section-icon {
+	display: inline-block;
+	font-size: 80px;
+	width: 140px;
+	height: 140px;
+	line-height: 136px;
+	vertical-align: middle;
+	text-align: left;
+	color: $global-color;
+}
+
+
+
+// Footer
+
+footer {
+  background: #ca6100;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: rgba(255,255,255,0.8);
+  margin: 15px 0px 0px 0px;
+  padding: 40px 0 40px 0;
+  width: 100%;
+	a {
+		color: rgba(255,255,255,0.8);
+		&:hover {
+			color: #fff;
+		}
+	}
+}
+
+footer p {
+	line-height: 20px;
+}
+
+footer h4 {
+	font-size: 18px;
+	line-height: 20px;
+	margin: 0 0 5px;
+	color: #fff;
+}
+
+footer ul {
+  line-height: 20px;
+  font-size: 13px;
+  list-style: none;
+  margin-left: 0;
+}
+
+.home-social
+{
+	margin-top: 10px;
+}
+
+.home-social a
+{
+	font-size: 30px;
+	margin-right: 15px;
+}
+
+img.footer-badge {
+	margin-top: rem-calc(10);
+}
+
+
+ol > li p,
+ul > li p,
+ul dd,
+ol dd,
+.olist .olist,
+.ulist .ulist,
+.ulist .olist,
+.olist .ulist {
+	margin-bottom: $paragraph-margin-bottom / 2;
+}
+
+ul.unstyled,
+ol.unnumbered,
+ul.checklist,
+ul.none {
+	list-style-type: none;
+}
