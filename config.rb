@@ -11,8 +11,8 @@ page '/*.txt', layout: false
 
 
 # redirect "/repository/index.html", :to => "http://forum.rigsofrods.org/thread-235.html"
-  
-  
+
+
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 
@@ -44,15 +44,15 @@ configure :build do
 
   # Minify Javascript on build
   activate :minify_javascript
-  
+
   activate :minify_html
-  
+
 end
 
 
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
-  blog.prefix = "blog"
+  blog.prefix = "B"
 
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
   # Matcher for blog source files
