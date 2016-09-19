@@ -7,12 +7,12 @@
   name: "Blog"
   id: 'nav.blog.title'
   icon: "fa fa-pencil"
-  url: "//rigsofrods.org/blog"
+  url: "//blog.rigsofrods.org/B/"
 -
   name: "Download"
   id: 'nav.download.title'
   icon: "fa fa-download"
-  url: "//rigsofrods.org/download"
+  url: "//download.rigsofrods.org"
 -
   name: "Repository"
   id: 'nav.repository.title'
@@ -33,3 +33,4 @@
   id: 'nav.docs.title'
   icon: "fa fa fa-terminal"
   url: "https://github.com/RigsOfRods/rigs-of-rods"
+          
