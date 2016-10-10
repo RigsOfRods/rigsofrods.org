@@ -27,7 +27,7 @@
   name: "Docs"
   id: 'nav.docs.title'
   icon: "fa fa-lightbulb-o"
-  url: "//docs.rigsofrods.org"
+  url: "http://docs.rigsofrods.org"
 -
   name: "Source Code"
   id: 'nav.docs.title'
