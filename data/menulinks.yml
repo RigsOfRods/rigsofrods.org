@@ -7,7 +7,7 @@
   name: "Blog"
   id: 'nav.blog.title'
   icon: "fa fa-pencil"
-  url: "//blog.rigsofrods.org/B/"
+  url: "//rigsofrods.org/Blog/"
 -
   name: "Download"
   id: 'nav.download.title'
