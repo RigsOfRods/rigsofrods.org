@@ -1,4 +1,36 @@
-<div class="row"> 
+<script>
+
+    var useros = navigator.appVersion;
+
+    var suported_os = ["Win", "Mac", "Linux"];
+    
+    var goto = "/index.html#NoRedirect";
+    
+    var d = window.location.hash.substring(1);
+    
+    suported_os.forEach(function(os) {
+      if (useros.indexOf(os)!=-1) {
+        goto = "/"+os+".html";
+      }
+    })
+    
+    
+    if(d.length == 0 || d != "NoRedirect"){
+       self.location = goto;
+    }
+    
+</script>
+
+<style>
+	body{
+		background: url(//rigsofrods.org/images/screenshots/ror-screenshot4_blur.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+	}
+</style>
+
+
+<div class="row" style="color:white;"> 
   <header><h1>Download</h1>
   </header>
     <div class="sect1">
@@ -31,7 +63,7 @@
             <ul>
               <li>
               <p>Packages for various distributions: 
-                <a href="http://rigsofrods.org/old-forum/forums/121-Support-Linux-Mac/113517/page-0001.html">here</a>
+                <a href="https://forum.rigsofrods.org/thread-68.html">here</a>
               </p>
               </li>
               <li>

@@ -76,3 +76,20 @@ activate :blog do |blog|
 end
 
 page "/feed.xml", layout: false
+page "/test.txt", layout: false
+
+
+
+
+data.versions.each do |item|
+  proxy "/download/#{item.os}.html", "download/download_confirmation_template.html", :locals => { 
+    :url => "/#{item.os}_thanks.html",
+    :version => item.version,
+    :changeLog_url => item.changeLog_url,
+    :os_full_name => item.os_full_name
+  }, :ignore => true
+  proxy "/download/#{item.os}_thanks.html", "download/download_template.html", :locals => { 
+    :url => item.url,
+    :version => item.version,
+  }, :ignore => true
+end
