@@ -1,18 +1,18 @@
 -
   os: "Win"
   os_full_name: "Windows"
-  url: "http://dl.rigsofrods.org/0.4.6/Rigs-of-Rods-0.4.6.exe"
+  url: "//dl.rigsofrods.org/0.4.6/Rigs-of-Rods-0.4.6.exe"
   version: "0.4.6.0"
   changeLog_url: "//dl.rigsofrods.org/0.4.7/CHANGELOG.html"
 -
   os: "Mac"
   os_full_name: "Mac OS"
-  url: "http://dl.rigsofrods.org/repo-backup/RoR-Mac-0.37-beta.zip"
+  url: "//dl.rigsofrods.org/repo-backup/RoR-Mac-0.37-beta.zip"
   version: "0.37-beta"
   changeLog_url: ""
 -
   os: "Linux"
   os_full_name: "Debian, Ubuntu and Mint"
-  url: "https://github.com/RigsOfRods/ror-linux-buildscripts/archive/master.zip"
+  url: "//github.com/RigsOfRods/ror-linux-buildscripts/archive/master.zip"
   version: "0.4.7.0"
   changeLog_url: "//dl.rigsofrods.org/0.4.7/CHANGELOG.html"
