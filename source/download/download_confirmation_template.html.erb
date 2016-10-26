@@ -8,11 +8,12 @@
 </style>
 
 
-<div style="padding:5em; height:100%; color:white;">
+<div class="row" style="color:white;">
 	<center style="padding:3em;">
 		<h2>Latest release: <%= version %> for <%= os_full_name %></h2>
 		<br>
-		<a href="<%= url %>" class="large button"><span class="show-for-large fa fa-download"/> Download</a>
+		<a href="<%= url %>" class="show-for-medium large button"><span class="fa fa-download"/> Download</a>
+		<a href="<%= url %>" class="show-for-small-only expanded button"><span class="fa fa-download"/> Download</a>
 		<br>
 		<small>Not the correct version or wrong OS? <a href="/index.html#NoRedirect">See all versions</a></small>
 	</center>
