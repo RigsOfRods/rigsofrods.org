@@ -91,5 +91,6 @@ data.versions.each do |item|
   proxy "/download/#{item.os}_thanks.html", "download/download_template.html", :locals => { 
     :url => item.url,
     :version => item.version,
+    :os_full_name => item.os_full_name
   }, :ignore => true
 end
