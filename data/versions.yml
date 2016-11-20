@@ -1,8 +1,8 @@
 -
   os: "Win"
   os_full_name: "Windows"
-  url: "//dl.rigsofrods.org/0.4.6/Rigs-of-Rods-0.4.6.exe"
-  version: "0.4.6.0"
+  url: "//github.com/RigsOfRods/rigs-of-rods/releases/download/0.4.7.0/Rigs-of-Rods-0.4.7.0.exe"
+  version: "0.4.7.0"
   changeLog_url: "//dl.rigsofrods.org/0.4.7/CHANGELOG.html"
 -
   os: "Mac"
